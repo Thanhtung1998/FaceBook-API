@@ -15,6 +15,8 @@ const path = require("path");
 
 dotenv.config();
 
+// mongoose connection
+
 mongoose.connect(
   process.env.MONGO_URL,
   { useNewUrlParser: true, useUnifiedTopology: true },
